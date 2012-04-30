@@ -1,0 +1,180 @@
+http://jogos.download.uol.com.br/videos/x360/mxvsatvuntamed(*).wmv
+http://jogos.download.uol.com.br/videos/x360/mxvsatvuntamed10.wmv
+http://jogos.download.uol.com.br/videos/x360/mxvsatvuntamed09.wmv
+http://jogos.download.uol.com.br/videos/x360/mxvsatvuntamed08.wmv
+http://jogos.download.uol.com.br/videos/x360/mxvsatvuntamed07.wmv
+http://jogos.download.uol.com.br/videos/x360/mxvsatvuntamed06.wmv
+http://jogos.download.uol.com.br/videos/x360/mxvsatvuntamed05.wmv
+
+* http://downloads.uol.com.br/windows/web/save2pc.jhtm
+* http://baixaki.ig.com.br/
+* http://www.shareit.com/
+www.superdownlods.com ( e o blog)
+
+* ok - Conta no paypal
+* Site
+* Instalador para versao final
+* Nome "unico"
+
+* Creditos: 
+BandObjectLib
+TabStrip
+
+--------------------------- VERSION 2
+* (OK) (Video Download) Convert video to AVI,MPEG,MP3 using ffmpeg.exe 
+	* (OK) Vai salver direto no formato, qual extensao usar na hr de salvar?
+	* (OK) Download windows deve forçar a extensao correta
+	* (OK) Salvar o formato do video no downlods.xml
+* (OK) Colocar o nome do video na tela de download video, pegar o nome do arquivo pelo titutlo no site
+* (OK) Ja traz URL no campo qnd abre uma janela de new download e ja tem no clipboard
+* (OK) import from text file 
+* (OK) New column on download list "Resume": Yes or No
+* (OK) Confirmar para deletar downloads
+* (OK) Fix view toolbar, nao esta ajudastando o tamanho!
+* (OK) Criar controle folder browser  
+* (OK) Nas edicoes de rate, qnd aplica as cotas, as vezes da erro
+* (OK) move up / move down in download queue - http://www.codeproject.com/KB/cpp/listview.aspx?print=true
+* (OK) Tabs na janela principal http://www.codeproject.com/cs/miscctrl/TabStrip.asp
+* (OK) Renomear o scheduler para Auto-Downloads
+* (OK) Opcao para ativar modo scheduler no star-up, Is it possible to start downloading, by starting the Downloader
+* (OK) Fix de performance na download lista
+  * (OK) Qnd add pl spider adiciona varios lisks, fica lerdo
+* (OK) Remover dependencia com GlacialList.dll 
+* (OK) batch windows (import file and bacths from url)
+	* (OK) Option to start the scheduler
+	* (OK) Set simutaneos downloads limit
+* (OK) Pause, esta demorando mto
+	* (OK) deve abortar as threads?
+	* (OK) Pause all junto com o speed limit, da dead lock
+	* (OK) Speed limit deixa o pause all lento
+	* (OK) Lock da download list deve ser de 1 - writer e N readers
+* (OK) Testar autenticacao http
+* (OK) Authentication in http
+* (OK) let the software start as a service, so it would start automaically in the background when windows login
+* (OK) Rever o parser de html do gringo
+  * (OK) Acho que pode colocar na tela de "Import From File"
+  * (OK) Algo como "Import from HTML" e ai tb exibe um campo base URL
+* (OK) Melhorar calculo de rate
+	* (OK) qnd baixando arquivo local e poe limite, demora mto pra cair
+	* (OK) em muitos downloads ao mesmo tempo, o rate fica mto auto
+* (Speed Limit) 
+	* (OK) Testar se com varios download a performance nao cai (cpu)
+	* Option to disable the speed limit while screen saver is running or computer is idle
+	* (OK) Improve
+	* (OK) Integrar com scheduler 
+	   * (OK) Especificar horarios que nao deve trabalhar
+	   * (OK) Especificar horarios com limites
+	* (OK) Testar
+* (OK) Todas as janelas
+	* (OK) Rever tab order
+	* (OK) Rever accep button e cancel button
+	
+* HTML Spider
+  * (OK) Desabilitar os botoes de Download/Abort
+  * (OK) Colocar animacao tipo do google reader
+  * (OK) Ja ativar o modo auto-downloads qnd começar
+  * (OK) IFRAME, FRAMES
+  * (OK) Abort  
+  * (OK) Permitir imagens fora de location?
+  * (OK) Filtros
+	* (OK) Ignore Nome
+	* (OK) Ignore Extension
+	* (OK) Download deaph
+  * (OK) Remove from list when completed
+  * (OK) Bug nas reg. expressions
+ 	<p><a href=""><img src="/Content/images/home/adcast.jpg" width="540" height="158" alt="Castle Stronghold" /></a></p>
+
+	<span id="newsnavleft"><a href="">&lt;</a></span>
+	<span id="newsnavright"><a href="">&gt;</a></span>
+
+	<p>If you have any question, do not hesitate to <a href="">contact us</a>. We would be pleased to talk to you.</p>
+	</div>
+  * (OK) Melhorar gerenciamento de conexao
+	* (OK) Um download da erro e ai fica parado por mto tempo e os outros ficam esperando
+* (OK) Clipboard monitor
+* (OK) Integrate with IE
+  * (OK) Qnd for site de video, mostrar animacao - http://forums.microsoft.com/MSDN/ShowPost.aspx?PostID=469442&SiteID=1
+  * (OK) Interceptar clicks de links and ALT apertado 
+  * (OK) Chamar o processo  
+  * (OK) Botao de "Lauch MD"
+  * (OK) Botao do video
+* (OK) Validar entrada de dados nos forms
+* Procurar TODO
+
+* OK - Allow user to explore ZIP file before download
+	* OK - Colocar controle de espera qnd esta listando conteudo do zip
+	
+* Testes:
+	* ok - Esquema dos horarios do download scheduler	
+	* ok - Se o rate fica controlado no horario configurado e depois volta
+	
+	* Testar mais sites no Web Spider 
+		* URL superiror tem IFRAME http://www2.uol.com.br/chantili/ensaios/renata_soares2/g0_0.htm
+		http://www2.uol.com.br/chantili/ensaios/index.html?pamela_vogue
+	* ok - Tirar URL padrao dos controles de location 
+	* ok - Tirar URL padrao no Web Spider
+	* Testar opcao de subir junto com o Windows
+	
+	* ok - importar URLs
+	* ok - Testar video (todos os sites)
+	* ok - Testar video conversao
+	
+	* ok- Testar + download de ZIP
+	* ok - Teste arquivo sem size
+	
+	* ok - Clipboard monitor
+
+--------------------------- VERSION 3
+* Grabber++ 
+
+* how about support for categories, downloading, downloaded, trash, and custom folders/categories. 
+* new function: check update of the downloaded file, if newer version(last modified date) exists, download the new one, ask for replace the old one.
+if add a new download file that already downloaded, allow to apply new download settings(new file path/name etc).
+
+1. add new download item, the download folder textbox will be better to be combobox remembering latest folders (could be configured at options, default is 10) ;-)
+2. allow to autorun at win startup;
+3. set referer of http download to avoid some anti-pirate link websites;
+4. larger default buffer, how about 4M, you know, nowadays, wide bandwidth [laugh] 
+* double click download item to open file/directory
+* support auto redirect, it seems that it does not support auto url redirection [doh] 
+
+* Integrate with IE  
+  * Para links simples funciona, mas para rapidshare/webmails nao
+* Simplificar nome dos elementos XML no save 
+* DropZone
+  * Aceita drag de HTML (abrir janela pedindo URL base)
+  * Aceita drag de link
+* Melhorar o algortimo de selecao do mirror
+  * tempo do ping
+  * Localizacao
+  * download rate do download anterior
+* Download batch = FDM
+* XY graph to display the transfer rate
+* AutoShut down after download end
+	* Shutdownl
+	* Hibernate
+	* Restart
+	* Close MD
+* Add Site login user name & password; coz I use RAPIDSHARE a lot and I have a user name and password for it, 
+but it is not supported by your program
+* Integrate with FF
+* Option to "Run when terminate"
+  * Fazer parecido com o FDM, abri uma janela com um timer para cancelar a execucao
+* incluir um botao para excluir todos aqueles "tentando sem conseguir" no myFreeDownLoaderByGui
+* Create download category and allow user to label the downloads
+* Search for TODO in code
+* Authentication in https
+* FTP should have a separated proxy setting
+* add / remove segments in download while downloading
+* (Video Download) Media monitor to intercept traffic from IE / FF.
+* Show a progress bar like emule in download list -> ***||**||||**|||
+* MetaLink http://en.wikipedia.org/wiki/Metalink
+* Download from MMS
+* reteste em caso de falhas no segmento
+* qnd o segmento termina nao esta vendo isso direito (o download do NFS tinha termando mais ainda continuava tentando baixar)
+* Lock da segment list deve ser de 1 - writer e N readers
+* Evento que usa o DownloaderEventArgs, pode ficar + simples, as vezes se adiciona uma lsita mto grande 
+    e para cada item é criado esse objeto
+* No Speed Limit, como chama toda hr o TotalSpeed faz mto lock na download list se juntar com o WebSpider ficara mto ruim    
+* Pause/Pause All - Fazer assincrono para tela nao travar
+* Se Download == Pausing, deixar o sleep = 0 no SpeedLimit

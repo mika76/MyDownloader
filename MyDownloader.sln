@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDownloader.App", "MyDownloader.App\MyDownloader.App.csproj", "{18AE3994-8F48-49B1-AC63-342F70ED1135}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDownloader.Core", "MyDownloader.Core\MyDownloader.Core.csproj", "{E763345E-6696-4C53-8764-47E4ABD67DEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDownloader.Extension", "MyDownloader.Extension\MyDownloader.Extension.csproj", "{FEA18B6C-491F-401A-A06B-AE47888FF288}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDownloader.Tests", "MyDownloader.Tests\MyDownloader.Tests.csproj", "{3232779E-E9F4-4D70-9969-F435D98B1A8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDownloader.Spider", "MyDownloader.Spider\MyDownloader.Spider.csproj", "{69C99442-953E-4559-96D3-C82CC57A3C87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDownloader.IEPlugin", "MyDownloader.IEPlugin\MyDownloader.IEPlugin.csproj", "{91BB212C-D158-4B83-A3BC-1A41BBDC8463}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18AE3994-8F48-49B1-AC63-342F70ED1135}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18AE3994-8F48-49B1-AC63-342F70ED1135}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18AE3994-8F48-49B1-AC63-342F70ED1135}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18AE3994-8F48-49B1-AC63-342F70ED1135}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E763345E-6696-4C53-8764-47E4ABD67DEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E763345E-6696-4C53-8764-47E4ABD67DEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E763345E-6696-4C53-8764-47E4ABD67DEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E763345E-6696-4C53-8764-47E4ABD67DEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEA18B6C-491F-401A-A06B-AE47888FF288}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEA18B6C-491F-401A-A06B-AE47888FF288}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEA18B6C-491F-401A-A06B-AE47888FF288}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEA18B6C-491F-401A-A06B-AE47888FF288}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3232779E-E9F4-4D70-9969-F435D98B1A8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3232779E-E9F4-4D70-9969-F435D98B1A8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3232779E-E9F4-4D70-9969-F435D98B1A8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69C99442-953E-4559-96D3-C82CC57A3C87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69C99442-953E-4559-96D3-C82CC57A3C87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69C99442-953E-4559-96D3-C82CC57A3C87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69C99442-953E-4559-96D3-C82CC57A3C87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91BB212C-D158-4B83-A3BC-1A41BBDC8463}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91BB212C-D158-4B83-A3BC-1A41BBDC8463}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91BB212C-D158-4B83-A3BC-1A41BBDC8463}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91BB212C-D158-4B83-A3BC-1A41BBDC8463}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

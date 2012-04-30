@@ -1,0 +1,71 @@
+* limite da rate 
+* melhorar calculo de rate
+
+* popup notify icon
+* (OK) janela de download de video
+  * (OK) forçar o protocol provider
+  * (OK) funcionar
+  
+* autenticacao na URL ftp
+* rever tratamento de erros, pois nem todas as excecoes estao sendo capturas
+
+* http://keepvid.com/
+* Support for GVideo
+* Support for YouTube
+* Support for Putfile
+* Support for Metacafe
+* Support for Break - esse site tb prove o formato WMV
+
+* Melhorar na parte inferior colocar uma tabControl: Segments | Log
+
+* jobs/scheduler:
+  * numero maximo de jobs
+  * se mandou startar, vai embora
+  * se download terminou e tem algum na fila, começa o primeiro
+  * se pause, nao começa outro (caso o numero de downloads estaja < max jobs) nao faz nada
+  
+* Testar HTTPs Downloader
+* download d arquivos q o servidor nao diz o tamanho
+* Tela de download batch suportar autentication
+* urls alternativas
+	* cada URL pode ser de um tipo diferente
+	* validar se o arquivo no mirror tem o mesmo tamanho
+* Qnd retoma um download pausado nao ta fazendo retry
+* melhorar integracao com parte do marco (chamar mtas imagems)
+
+
+* melhorar o refresh de UI
+* se o arquivo no servidor mudou?  
+* ter diretorio comum para salvar
+  * mudar tela de new donwload
+  * mudar jeito que processa parametros de entrada  
+* performance para salvar a lista de downloads (xml serializer)
+* melhorar uso de CPU qnd a lista fica grande
+* tela de batch download 
+* exibir erro Downloader.LastError na UI
+* executar arquivo do concluir
+* resetar o contador de try qnd recomeça o download / segmento
+* se tenta retomar arquivo que nao suporta ranges
+* se falhar ao obter o file info deixar como erro e tentar + tarde
+* calcular tempo que download consuminiu no total (added date)
+* about box
+  * mostrar plug'in
+  * link para site
+* se um segmento falhar tentar + tarde (configurado)
+* ordenacao da lista na UI
+* subir balao no relogio do windows qnd download terminar
+* sons para notificar eventos
+* se fechou o programa qnd esta em needtoPrepare ou preparing da erro na volta 
+pois nesse caso ainda nao gerou os segmentos
+* evitar que seja aberta 1 conexao pra pegar o info e depois seja despresada
+* download de YouTUbe
+* se um segmento terminar, quebrar o que esta rodando em 2
+* salvar estados dos downloads para reiniciar a aplicacao
+* configuracao visual do proxy
+* integracao com anti-virus
+* formatar os bytes em casas decimais para exibir no grid
+* download via FTP
+* download via HTTP
+* download segmentado
+* pause e restart
+* tornar o download http e ftp uma extensions 
